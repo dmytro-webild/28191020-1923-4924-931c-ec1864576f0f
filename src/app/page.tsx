@@ -124,10 +124,10 @@ export default function LandingPage() {
           tagIcon={Star}
           tagAnimation="slide-up"
           testimonials={[
-            { id: "1", name: "Jessica Anderson", role: "Business Owner", company: "Anderson & Co.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/close-up-smiley-woman-therapy_23-2148928886.jpg", imageAlt: "Jessica Anderson smiling" },
+            { id: "1", name: "Jessica Anderson", role: "Business Owner", company: "Anderson & Co.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/close-up-smiley-woman-therapy_23-2148928886.jpg?_wi=1", imageAlt: "Jessica Anderson smiling" },
             { id: "2", name: "Michael Chen", role: "Software Engineer", company: "Tech Innovations", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/close-up-man-with-bright-smile_23-2148563438.jpg", imageAlt: "Michael Chen confident smile" },
             { id: "3", name: "Emily Rodriguez", role: "Marketing Director", company: "Creative Solutions", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/happy-african-american-healthcare-expert-looking-camera_637285-11471.jpg", imageAlt: "Emily Rodriguez professional portrait" },
-            { id: "4", name: "David Kim", role: "Financial Advisor", company: "Wealth Management Inc.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/close-up-smiley-woman-therapy_23-2148928886.jpg", imageAlt: "David Kim smiling portrait" }
+            { id: "4", name: "David Kim", role: "Financial Advisor", company: "Wealth Management Inc.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/close-up-smiley-woman-therapy_23-2148928886.jpg?_wi=2", imageAlt: "David Kim smiling portrait" }
           ]}
           kpiItems={[
             { value: "98%", label: "Patient Satisfaction" },
