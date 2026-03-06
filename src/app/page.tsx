@@ -45,7 +45,7 @@ export default function LandingPage() {
           logoText="SmileCare Dental"
           description="Experience premium dental care in a comfortable, modern environment. Expert treatment, pain-free procedures, and your healthiest smile await."
           buttons={[
-            { text: "Book Appointment", href: "contact" },
+            { text: "Book Free Consultation", href: "contact" },
             { text: "Learn More", href: "services" }
           ]}
           buttonAnimation="slide-up"
