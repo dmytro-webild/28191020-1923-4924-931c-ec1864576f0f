@@ -22,24 +22,26 @@ const nunito = Nunito({
 export const metadata: Metadata = {
   title: "SmileCare Dental | Professional Dental Clinic & Services",  description: "Expert dental care with 20+ years of experience. Professional cleanings, teeth whitening, implants, braces, and cosmetic dentistry. Book your appointment today.",  keywords: "dental clinic, dentist, teeth cleaning, dental implants, teeth whitening, orthodontics, cosmetic dentistry, emergency dental care",  metadataBase: new URL("https://smiledental.com"),
   alternates: {
-    canonical: "https://smiledental.com"},
+    canonical: "https://smiledental.com"
+  },
   openGraph: {
     title: "SmileCare Dental - Your Trusted Dental Clinic",    description: "Experience premium dental care with expert dentistry services. Comfortable, modern, and patient-focused.",    url: "https://smiledental.com",    siteName: "SmileCare Dental",    type: "website",    images: [
       {
-        url: "http://img.b2bpic.net/free-photo/full-equiped-medical-cabinet_1303-23912.jpg",        alt: "dental clinic interior modern dental office clean medical space professional dentistry"},
-    ],
+        url: "http://img.b2bpic.net/free-photo/full-equiped-medical-cabinet_1303-23912.jpg",        alt: "dental clinic interior modern dental office clean medical space professional dentistry"
+      }
+    ]
   },
   twitter: {
-    card: "summary_large_image",    title: "SmileCare Dental - Professional Dental Care",    description: "Expert dental services including cleanings, implants, whitening, and cosmetic procedures.",    images: ["http://img.b2bpic.net/free-photo/full-equiped-medical-cabinet_1303-23912.jpg"],
+    card: "summary_large_image",    title: "SmileCare Dental - Professional Dental Care",    description: "Expert dental services including cleanings, implants, whitening, and cosmetic procedures.",    images: ["http://img.b2bpic.net/free-photo/full-equiped-medical-cabinet_1303-23912.jpg"]
   },
   robots: {
     index: true,
-    follow: true,
-  },
+    follow: true
+  }
 };
 
 export default function RootLayout({
-  children,
+  children
 }: Readonly<{
   children: React.ReactNode;
 }>) {
